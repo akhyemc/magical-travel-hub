@@ -65,6 +65,10 @@ nav a.icon {
   .newsletter-section{
     width: 100%;
   }
+
+  .newsletter-container{
+    height: 60%;
+  }
  .discount-img img{
   padding: 20px;
  }
@@ -78,5 +82,10 @@ nav a.icon {
 .discount h3{
   font-size: 22px;
 }
-
+.footer p{
+  padding: 5px;
+}
+.footer .copyright {
+  margin: 0;
+}
 }

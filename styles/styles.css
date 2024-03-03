@@ -76,7 +76,7 @@ nav{
 .banner-heading p{
     text-align: center;
 }
-.banner-heading p, .tour-description , .travel-description p, .choose-description p, .newsletter-section p{
+.banner-heading p, .tour-description , .travel-description p, .choose-description p, .newsletter-section p, .footer p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -160,7 +160,7 @@ main{
     text-align: center;
     padding: 20px;
 }
-.travel-description p,.choose-description p, .card-container p, .newsletter-container p{
+.travel-description p,.choose-description p, .card-container p, .newsletter-container p , .footer p{
     color: rgba(19, 19, 24, 0.70);
 }
 
@@ -251,6 +251,8 @@ main{
 }
 .newsletter-container{
     gap: 20px;
+    margin-bottom: 0;
+    height: 500px;
 }
 .form-headings{
     font-size: 24px;
@@ -273,6 +275,7 @@ main{
     display: block;
     width: 100%;
     padding: 20px;
+    margin-top: 20px;
     margin-bottom: 16px;
     font-size: 16px;
     border-radius: 8px;
@@ -307,3 +310,50 @@ main{
 .discount p{
     font-size: 24px;
 }
+
+/* footer section style */
+.footer{
+    background: #1313180d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 500px;
+  }
+  .footer-content{
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-content h3{
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .travel{
+    color: #FF5400;
+}
+  
+  .footer p{
+    text-align: center;
+  }
+  
+  .social-media-link img{
+    margin-top: 50px;
+  }
+  
+  .footer hr{
+    background: #ebebefd0;
+    width: 70%;
+    margin: 40px;
+  }
+  
+ .footer .copyright {
+    color: #131318;
+    font-size: 16px;
+    margin: 30px;
+  }
+  
